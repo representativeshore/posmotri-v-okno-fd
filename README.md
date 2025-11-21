@@ -1,1 +1,1 @@
-https://github.com/representativeshore/posmotri-v-okno-fd#
+https://github.com/representativeshore/posmotri-v-okno-fd
