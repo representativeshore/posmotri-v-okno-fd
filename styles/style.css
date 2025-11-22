@@ -8,16 +8,6 @@ html {
   block-size: 100%;
 }
 
-.page {
-  inline-size: 1200px;
-  block-size: 100%;
-  margin: auto;
-  color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
-  font-size: 18px;
-  background-color: #1b1919;
-}
-
 h1,
 h2,
 h3,
@@ -62,7 +52,6 @@ ol {
   display: flex;
   align-items: self-start;
   justify-content: space-between;
-  height: 54px;
   width: 711px;
 }
 
@@ -119,13 +108,13 @@ ol {
 
 .search-form__textfield {
   border-width: 0;
-  border-top: 1px solid #fff;
+  border-top: 1px solid currentColor;
   border-bottom: 1px solid #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   line-height: 100%;
   color: #fff;
-  background-color: #1b1919;
+  background-color: transparent;
   width: 225px;
   opacity: 70%;
   appearance: none;
@@ -137,9 +126,8 @@ ol {
 
 .content__list-container {
   height: 298px;
-  width: 399px;
-  overflow: scroll;
-  overflow-x: hidden;
+  width: 401px;
+  overflow: auto;
   gap: 30px;
   display: flex;
   flex-direction: column;
@@ -251,7 +239,7 @@ ol {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  max-width: 95%;
+  max-width: 96%;
 }
 
 .content__card-link:hover .content__video-card-title {
@@ -274,7 +262,7 @@ ol {
 }
 
 .button {
-  border: 1px solid #fff;
+  border: 1px solid currentColor;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
@@ -308,7 +296,8 @@ ol {
 
 .more-button {
   display: block;
-  width: 100%;
+  width: 99%;
+  padding: 5px 0;
 }
 
 .visually-hidden {
